@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Chintha IT Innovations - Premier IT Solutions in Kerala. Web Development, AI, and Digital Transformation.">
+    <title>Chintha IT Innovations</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <!-- Logos for different themes. User must place files in img/ folder -->
+                <img src="img/logo-light.png" alt="Chintha IT Innovations" class="logo-img logo-light">
+                <img src="img/logo-dark.png" alt="Chintha IT Innovations" class="logo-img logo-dark">
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <!-- Icon will be inserted by JS or CSS -->
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav">
+        <button id="close-menu-btn" class="close-menu-btn">&times;</button>
+        <ul class="mobile-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Innovating Your <span class="text-gradient">Digital Future</span></h1>
+                    <p class="hero-subtitle">We craft cutting-edge digital solutions that transform businesses. From
+                        Kerala to the world.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                        <a href="#services" class="btn btn-outline">Our Services</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Placeholder for abstract tech visual or illustration -->
+                    <div class="visual-circle"></div>
+                    <div class="visual-card">
+                        <span>Innovation</span>
+                        <span>Growth</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services">
+            <div class="container centered">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-desc">Comprehensive IT solutions tailored to your business needs.</p>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="icon-box">💻</div>
+                        <h3>Web Development</h3>
+                        <p>Custom, responsive websites built with modern technologies.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">📱</div>
+                        <h3>App Development</h3>
+                        <p>Native and cross-platform mobile applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">🧠</div>
+                        <h3>AI Solutions</h3>
+                        <p>Intelligent automation and data-driven insights.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">☁️</div>
+                        <h3>Cloud Services</h3>
+                        <p>Scalable cloud infrastructure and management.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">🎓</div>
+                        <h3>Internship</h3>
+                        <p>Skill development programs for aspiring tech professionals.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">🌏</div>
+                        <h3>Offshore Development</h3>
+                        <p>Dedicated remote teams for global businesses.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">💼</div>
+                        <h3>Consulting</h3>
+                        <p>Expert strategic advice to optimize your IT operations.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="icon-box">🔓</div>
+                        <h3>Open Source Dev</h3>
+                        <p>Building and contributing to open source ecosystems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container about-container">
+                <div class="about-text">
+                    <h2 class="section-title">Who We Are</h2>
+                    <p>Chintha IT Innovations Pvt Ltd is a premier IT startup registered in Kerala. We are driven by a
+                        passion for technology and a commitment to excellence.</p>
+                    <p>Our team of experts collaborates to deliver high-quality, scalable, and innovative solutions that
+                        help businesses thrive in the digital age.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p>Ready to start your project? Contact us today.</p>
+
+                    <div class="info-item">
+                        <strong>Email:</strong> contact@chinthaitinnovations.com
+                    </div>
+                    <div class="info-item">
+                        <strong>Location:</strong> <br>
+                        Suite 694, 24/1701 2nd Flr, Kc Arcade,<br>
+                        Thuthiyoor Rd, Cochin Special Economic Zone,<br>
+                        Ernakulam, Kerala, India, 682037
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="img/logo-light.png" alt="Chintha IT Innovations" class="logo-img logo-light">
+                    <img src="img/logo-dark.png" alt="Chintha IT Innovations" class="logo-img logo-dark">
+                </a>
+                <p>Innovating for tomorrow.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chintha IT Innovations Pvt Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
